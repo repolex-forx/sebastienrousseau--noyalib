@@ -3,17 +3,23 @@
   "completed_files": [
     "crates/noyalib/examples/overlay.rs",
     "crates/noyalib/examples/validation.rs",
+    "crates/noyalib/examples/validation_validator.rs",
     "crates/noyalib/src/compat/serde_yaml.rs",
     "crates/noyalib/src/cst/document.rs",
     "crates/noyalib/src/de.rs",
     "crates/noyalib/src/de/deserializer.rs",
     "crates/noyalib/src/error.rs",
+    "crates/noyalib/src/ser.rs",
     "crates/noyalib/tests/coverage_boost.rs",
     "crates/noyalib/tests/coverage_full.rs",
     "crates/noyalib/tests/cst_emit.rs",
+    "crates/noyalib/tests/cst_entry_or_insert.rs",
     "crates/noyalib/tests/cst_remove_fuzz_regressions.rs",
     "crates/noyalib/tests/cst_stream.rs",
-    "crates/noyalib/tests/parser_coverage_extra.rs"
+    "crates/noyalib/tests/de_streaming_branch_extra.rs",
+    "crates/noyalib/tests/parser_coverage_extra.rs",
+    "crates/noyalib/tests/ser_cst_coverage_extra.rs",
+    "crates/noyalib/tests/ser_tag_indicator_keys.rs"
   ],
   "completed_types": [],
   "stats": {
@@ -21,7 +27,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a939aae03cb142f09ea5b9476e70218065e8ca79.nq.gz",
     "call_sites": 49593,
     "import_statements": 703,
-    "call_targets_resolved": 6024,
+    "call_targets_resolved": 8945,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -35,5 +41,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1805
+  "elapsed_seconds": 1800
 }
