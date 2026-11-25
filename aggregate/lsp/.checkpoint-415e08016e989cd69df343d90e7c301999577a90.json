@@ -1,0 +1,36 @@
+{
+  "commit_sha": "415e08016e989cd69df343d90e7c301999577a90",
+  "completed_files": [
+    "crates/noyalib/benches/structural_bitmask.rs",
+    "crates/noyalib/src/parser/loader.rs",
+    "crates/noyalib/src/parser/scanner/scalars.rs",
+    "crates/noyalib/tests/coverage_final.rs",
+    "crates/noyalib/tests/coverage_final_sweep4.rs",
+    "crates/noyalib/tests/coverage_gaps.rs",
+    "crates/noyalib/tests/cst_anchors.rs",
+    "crates/noyalib/tests/cst_quoted_path_segments.rs",
+    "crates/noyalib/tests/edge_cases.rs",
+    "crates/noyalib/tests/streaming_coverage_extra.rs"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/sebastienrousseau/noyalib/lsp/415e08016e989cd69df343d90e7c301999577a90",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/415e08016e989cd69df343d90e7c301999577a90.nq.gz",
+    "call_sites": 49593,
+    "import_statements": 703,
+    "call_targets_resolved": 3860,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 0,
+    "implements_clauses": 105,
+    "import_modules_denormalized": 1398,
+    "import_symbols_denormalized": 0,
+    "extends_class_denormalized": 0,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1801
+}
