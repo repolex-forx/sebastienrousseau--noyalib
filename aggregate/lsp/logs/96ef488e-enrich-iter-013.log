@@ -1,0 +1,38 @@
+[2026-11-25T15:44:18Z] === ENRICH ITERATION 13 START | repo=sebastienrousseau/noyalib sha=96ef488e ===
+[2026-11-25T15:44:18Z] [iter=13] PHASE START: enrich repo=sebastienrousseau/noyalib sha=96ef488e runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/96ef488e-enrich-iter-013.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/96ef488e9e7d7f7604c225b496799ffe26ce289a.nq.gz
+[2026-11-25T15:44:18Z] [iter=13] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T15:45:29Z] [iter=13] AST store loaded triples=4983606 load_secs=70 mem_mb=966 MB
+[2026-11-25T15:45:29Z] [iter=13] Step 2: Finding LSP targets mem_mb=966 MB
+[2026-11-25T15:45:37Z] [iter=13] LSP targets found call_sites=49593 imports=703 extends=0 implements=105 secs=8
+[2026-11-25T15:45:52Z] [iter=13] Loaded checkpoint partial graph triples=281538
+[2026-11-25T15:45:52Z] [iter=13] Primed enclosing-def cache from persisted triples entries=1261
+[2026-11-25T15:45:56Z] [iter=13] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=966 MB
+[2026-11-25T15:46:23Z] [iter=13] Position index built positions=346540 nodes_with_types=413246 secs=28 mem_mb=1549 MB
+[2026-11-25T15:46:23Z] [iter=13] Step 3: Starting LSP resolution mem_mb=1549 MB already_completed_types=[] already_completed_files=162
+[2026-11-25T15:46:23Z] [iter=13] Resolving target type target_type=call_site count=49593
+[2026-11-25T15:46:39Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=2.4 files_done=0 resolved=0 errors=0 current=crates/noyalib/src/cst/entry.rs
+[2026-11-25T15:47:29Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=3.2 files_done=1 resolved=48 errors=0 current=crates/noyalib/tests/serde_yaml_compat_config.rs
+[2026-11-25T15:48:52Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=4.6 files_done=3 resolved=219 errors=0 current=crates/noyalib/tests/coverage_number_unsigned.rs
+[2026-11-25T15:49:22Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=5.1 files_done=5 resolved=310 errors=0 current=crates/noyalib/src/with/singleton_map_with.rs
+[2026-11-25T15:50:35Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=6.3 files_done=6 resolved=436 errors=0 current=crates/noyalib/tests/string_target_plain_scalar.rs
+[2026-11-25T15:51:47Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=7.5 files_done=7 resolved=529 errors=0 current=crates/noyalib/examples/alias.rs
+[2026-11-25T15:52:18Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=8 resolved=570 errors=0 current=crates/noyalib/tests/ultra_complex.rs
+[2026-11-25T15:53:15Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=9.0 files_done=9 resolved=682 errors=0 current=crates/noyalib/src/recovery.rs
+[2026-11-25T15:54:15Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=9.9 files_done=12 resolved=776 errors=0 current=crates/noyalib/tests/spec/sequences.rs
+[2026-11-25T15:54:45Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=10.5 files_done=14 resolved=852 errors=0 current=crates/noyalib/tests/coverage_untested_public_api.rs
+[2026-11-25T15:56:37Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=12.3 files_done=16 resolved=1036 errors=0 current=crates/noyalib/tests/i18n_formatters.rs
+[2026-11-25T15:57:35Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=13.3 files_done=17 resolved=1114 errors=0 current=crates/noyalib/examples/figment.rs
+[2026-11-25T15:59:02Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=14.7 files_done=20 resolved=1287 errors=0 current=crates/noyalib/tests/property_interpolation.rs
+[2026-11-25T16:00:46Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=16.5 files_done=21 resolved=1441 errors=0 current=crates/noyalib/examples/merge_keys_with_aliases.rs
+[2026-11-25T16:01:46Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=17.5 files_done=23 resolved=1555 errors=0 current=crates/noyalib/tests/coverage_misc.rs
+[2026-11-25T16:02:56Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=18.6 files_done=24 resolved=1673 errors=0 current=crates/noyalib/examples/scientific.rs
+[2026-11-25T16:06:29Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=22.2 files_done=26 resolved=1977 errors=0 current=crates/noyalib/src/doc_boundary.rs
+[2026-11-25T16:08:16Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=24.0 files_done=29 resolved=2201 errors=0 current=crates/noyalib/src/lossless_float.rs
+[2026-11-25T16:09:02Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=24.7 files_done=31 resolved=2279 errors=0 current=crates/noyalib/tests/dos_hardening.rs
+[2026-11-25T16:11:27Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=27.2 files_done=33 resolved=2469 errors=0 current=crates/noyalib/tests/comments.rs
+[2026-11-25T16:13:19Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=29.0 files_done=35 resolved=2673 errors=0 current=crates/noyalib/tests/phase3.rs
+[2026-11-25T16:14:00Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=29.7 files_done=36 resolved=2761 errors=0 current=crates/noyalib/examples/std.rs
+[2026-11-25T16:14:23Z] [iter=13] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=200 new_files_this_iter=38 mem_mb=1552 MB
+[2026-11-25T16:14:23Z] [iter=13] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/96ef488e9e7d7f7604c225b496799ffe26ce289a.nq.gz triples=304834
+[2026-11-25T16:14:27Z] [iter=13] Checkpoint written, exiting with code 7
+[2026-11-25T16:14:27Z] [iter=13] PHASE END: enrich (checkpointed) elapsed_s=1806 elapsed_min=30.1 files_completed=200
