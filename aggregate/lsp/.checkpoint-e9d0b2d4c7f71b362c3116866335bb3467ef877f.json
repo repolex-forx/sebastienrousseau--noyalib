@@ -12,6 +12,7 @@
     "crates/noyalib/tests/coverage_b1_streaming.rs",
     "crates/noyalib/tests/coverage_final.rs",
     "crates/noyalib/tests/coverage_full.rs",
+    "crates/noyalib/tests/coverage_gaps.rs",
     "crates/noyalib/tests/coverage_value.rs",
     "crates/noyalib/tests/cst_rename_key.rs",
     "crates/noyalib/tests/cst_round_trip.rs",
@@ -30,7 +31,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/e9d0b2d4c7f71b362c3116866335bb3467ef877f.nq.gz",
     "call_sites": 49593,
     "import_statements": 703,
-    "call_targets_resolved": 11186,
+    "call_targets_resolved": 13052,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -44,5 +45,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1803
+  "elapsed_seconds": 1809
 }
