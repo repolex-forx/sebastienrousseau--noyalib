@@ -1,0 +1,31 @@
+{
+  "commit_sha": "e9d0b2d4c7f71b362c3116866335bb3467ef877f",
+  "completed_files": [
+    "crates/noyalib/benches/comparison.rs",
+    "crates/noyalib/tests/competitive_features_full.rs",
+    "crates/noyalib/tests/coverage_full.rs",
+    "crates/noyalib/tests/de.rs",
+    "crates/noyalib/tests/streaming_round3_push.rs"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/sebastienrousseau/noyalib/lsp/e9d0b2d4c7f71b362c3116866335bb3467ef877f",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/e9d0b2d4c7f71b362c3116866335bb3467ef877f.nq.gz",
+    "call_sites": 49593,
+    "import_statements": 703,
+    "call_targets_resolved": 2753,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 0,
+    "implements_clauses": 105,
+    "import_modules_denormalized": 1398,
+    "import_symbols_denormalized": 0,
+    "extends_class_denormalized": 0,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1809
+}
