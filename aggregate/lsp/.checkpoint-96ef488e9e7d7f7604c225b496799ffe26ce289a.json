@@ -18,6 +18,7 @@
     "crates/noyalib/src/de/deserializer.rs",
     "crates/noyalib/src/error.rs",
     "crates/noyalib/src/parser/events.rs",
+    "crates/noyalib/src/parser/loader.rs",
     "crates/noyalib/src/ser.rs",
     "crates/noyalib/src/sval_adapter.rs",
     "crates/noyalib/src/value.rs",
@@ -68,11 +69,13 @@
     "crates/noyalib/tests/schema_codegen.rs",
     "crates/noyalib/tests/ser_block_scalar_round_trips.rs",
     "crates/noyalib/tests/ser_cst_coverage_extra.rs",
+    "crates/noyalib/tests/ser_line_break_characters.rs",
     "crates/noyalib/tests/ser_quoting_edges.rs",
     "crates/noyalib/tests/serde_yaml_contract.rs",
     "crates/noyalib/tests/spec/numbers.rs",
     "crates/noyalib/tests/spec_torture.rs",
     "crates/noyalib/tests/stress_load.rs",
+    "crates/noyalib/tests/value.rs",
     "crates/noyalib/tests/value_coverage_extra.rs",
     "crates/noyalib/tests/value_final_push.rs"
   ],
@@ -82,7 +85,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/96ef488e9e7d7f7604c225b496799ffe26ce289a.nq.gz",
     "call_sites": 49593,
     "import_statements": 703,
-    "call_targets_resolved": 19557,
+    "call_targets_resolved": 21695,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -96,5 +99,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1803
+  "elapsed_seconds": 1802
 }
