@@ -3,12 +3,15 @@
   "completed_files": [
     "crates/noyalib/benches/benchmarks.rs",
     "crates/noyalib/benches/structural_bitmask.rs",
+    "crates/noyalib/examples/patch.rs",
     "crates/noyalib/src/cst/document.rs",
     "crates/noyalib/src/parser/loader.rs",
     "crates/noyalib/src/parser/scanner/scalars.rs",
     "crates/noyalib/tests/alias_dual_label.rs",
+    "crates/noyalib/tests/coverage_boost.rs",
     "crates/noyalib/tests/coverage_final.rs",
     "crates/noyalib/tests/coverage_final_sweep4.rs",
+    "crates/noyalib/tests/coverage_fmt.rs",
     "crates/noyalib/tests/coverage_full.rs",
     "crates/noyalib/tests/coverage_gaps.rs",
     "crates/noyalib/tests/coverage_value.rs",
@@ -25,7 +28,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/415e08016e989cd69df343d90e7c301999577a90.nq.gz",
     "call_sites": 49593,
     "import_statements": 703,
-    "call_targets_resolved": 9069,
+    "call_targets_resolved": 11020,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -39,5 +42,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1806
+  "elapsed_seconds": 1805
 }

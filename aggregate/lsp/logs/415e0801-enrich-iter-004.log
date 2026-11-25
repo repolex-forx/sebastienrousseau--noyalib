@@ -1,0 +1,20 @@
+[2026-11-25T21:29:59Z] === ENRICH ITERATION 4 START | repo=sebastienrousseau/noyalib sha=415e0801 ===
+[2026-11-25T21:29:59Z] [iter=4] PHASE START: enrich repo=sebastienrousseau/noyalib sha=415e0801 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/415e0801-enrich-iter-004.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/415e08016e989cd69df343d90e7c301999577a90.nq.gz
+[2026-11-25T21:29:59Z] [iter=4] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T21:30:47Z] [iter=4] AST store loaded triples=4983606 load_secs=46 mem_mb=1053 MB
+[2026-11-25T21:30:47Z] [iter=4] Step 2: Finding LSP targets mem_mb=1053 MB
+[2026-11-25T21:30:56Z] [iter=4] LSP targets found call_sites=49593 imports=703 extends=0 implements=105 secs=9
+[2026-11-25T21:31:00Z] [iter=4] Loaded checkpoint partial graph triples=78267
+[2026-11-25T21:31:00Z] [iter=4] Primed enclosing-def cache from persisted triples entries=623
+[2026-11-25T21:31:04Z] [iter=4] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1053 MB
+[2026-11-25T21:31:38Z] [iter=4] Position index built positions=346540 nodes_with_types=413246 secs=34 mem_mb=1284 MB
+[2026-11-25T21:31:38Z] [iter=4] Step 3: Starting LSP resolution mem_mb=1284 MB already_completed_types=[] already_completed_files=17
+[2026-11-25T21:31:38Z] [iter=4] Resolving target type target_type=call_site count=49593
+[2026-11-25T21:31:52Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=0 resolved=0 errors=0 current=crates/noyalib/tests/coverage_boost.rs
+[2026-11-25T21:53:28Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=23.5 files_done=1 resolved=1424 errors=0 current=crates/noyalib/tests/coverage_fmt.rs
+[2026-11-25T21:55:18Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=25.3 files_done=2 resolved=1570 errors=0 current=crates/noyalib/examples/patch.rs
+[2026-11-25T21:56:41Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=26.7 files_done=3 resolved=1655 errors=0 current=crates/noyalib/src/streaming.rs
+[2026-11-25T22:00:05Z] [iter=4] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=20 new_files_this_iter=3 mem_mb=1306 MB
+[2026-11-25T22:00:05Z] [iter=4] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/415e08016e989cd69df343d90e7c301999577a90.nq.gz triples=94210
+[2026-11-25T22:00:06Z] [iter=4] Checkpoint written, exiting with code 7
+[2026-11-25T22:00:06Z] [iter=4] PHASE END: enrich (checkpointed) elapsed_s=1805 elapsed_min=30.1 files_completed=20
