@@ -1,0 +1,28 @@
+{
+  "commit_sha": "96ef488e9e7d7f7604c225b496799ffe26ce289a",
+  "completed_files": [
+    "crates/noyalib/tests/coverage_boost.rs",
+    "crates/noyalib/tests/ser_block_scalar_round_trips.rs"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/sebastienrousseau/noyalib/lsp/96ef488e9e7d7f7604c225b496799ffe26ce289a",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/96ef488e9e7d7f7604c225b496799ffe26ce289a.nq.gz",
+    "call_sites": 49593,
+    "import_statements": 703,
+    "call_targets_resolved": 1796,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 0,
+    "implements_clauses": 105,
+    "import_modules_denormalized": 1398,
+    "import_symbols_denormalized": 0,
+    "extends_class_denormalized": 0,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1805
+}
