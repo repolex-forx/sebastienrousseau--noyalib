@@ -1,0 +1,25 @@
+[2026-11-26T10:12:27Z] === ENRICH ITERATION 10 START | repo=sebastienrousseau/noyalib sha=1d3c6136 ===
+[2026-11-26T10:12:27Z] [iter=10] PHASE START: enrich repo=sebastienrousseau/noyalib sha=1d3c6136 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/1d3c6136-enrich-iter-010.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/1d3c6136835405d2544c854ef7dd8e55ab62d817.nq.gz
+[2026-11-26T10:12:27Z] [iter=10] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-26T10:13:34Z] [iter=10] AST store loaded triples=4962749 load_secs=65 mem_mb=979 MB
+[2026-11-26T10:13:34Z] [iter=10] Step 2: Finding LSP targets mem_mb=979 MB
+[2026-11-26T10:13:41Z] [iter=10] LSP targets found call_sites=49331 imports=700 extends=0 implements=105 secs=8
+[2026-11-26T10:13:50Z] [iter=10] Loaded checkpoint partial graph triples=186792
+[2026-11-26T10:13:50Z] [iter=10] Primed enclosing-def cache from persisted triples entries=955
+[2026-11-26T10:13:53Z] [iter=10] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=979 MB
+[2026-11-26T10:14:19Z] [iter=10] Position index built positions=345125 nodes_with_types=411513 secs=26 mem_mb=1416 MB
+[2026-11-26T10:14:19Z] [iter=10] Step 3: Starting LSP resolution mem_mb=1416 MB already_completed_types=[] already_completed_files=76
+[2026-11-26T10:14:19Z] [iter=10] Resolving target type target_type=call_site count=49331
+[2026-11-26T10:14:31Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=2.1 files_done=0 resolved=0 errors=0 current=crates/noyalib/tests/coverage_spanned_anchors.rs
+[2026-11-26T10:15:44Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=3.3 files_done=1 resolved=116 errors=0 current=crates/noyalib/tests/coverage_gaps.rs
+[2026-11-26T10:24:45Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=12.3 files_done=2 resolved=884 errors=0 current=crates/noyalib/src/tag_registry.rs
+[2026-11-26T10:28:41Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=16.2 files_done=4 resolved=1201 errors=0 current=crates/noyalib/tests/coverage_loader_full.rs
+[2026-11-26T10:30:18Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=17.8 files_done=5 resolved=1373 errors=0 current=crates/noyalib/tests/coverage_b1_value_with.rs
+[2026-11-26T10:32:53Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=20.4 files_done=6 resolved=1589 errors=0 current=crates/noyalib/src/parser/events.rs
+[2026-11-26T10:37:00Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=24.5 files_done=7 resolved=1895 errors=0 current=crates/noyalib/tests/ux_diagnostics.rs
+[2026-11-26T10:37:30Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=25.0 files_done=8 resolved=1963 errors=0 current=crates/noyalib/tests/parser_coverage_extra.rs
+[2026-11-26T10:41:22Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=28.9 files_done=9 resolved=2313 errors=0 current=crates/noyalib/src/tokio_async.rs
+[2026-11-26T10:42:34Z] [iter=10] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=86 new_files_this_iter=10 mem_mb=1442 MB
+[2026-11-26T10:42:34Z] [iter=10] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/1d3c6136835405d2544c854ef7dd8e55ab62d817.nq.gz triples=206512
+[2026-11-26T10:42:36Z] [iter=10] Checkpoint written, exiting with code 7
+[2026-11-26T10:42:36Z] [iter=10] PHASE END: enrich (checkpointed) elapsed_s=1807 elapsed_min=30.1 files_completed=86
