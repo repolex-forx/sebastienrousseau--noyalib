@@ -1,0 +1,29 @@
+[2026-11-26T11:22:06Z] === ENRICH ITERATION 12 START | repo=sebastienrousseau/noyalib sha=1d3c6136 ===
+[2026-11-26T11:22:06Z] [iter=12] PHASE START: enrich repo=sebastienrousseau/noyalib sha=1d3c6136 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/1d3c6136-enrich-iter-012.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/1d3c6136835405d2544c854ef7dd8e55ab62d817.nq.gz
+[2026-11-26T11:22:06Z] [iter=12] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-26T11:23:18Z] [iter=12] AST store loaded triples=4962749 load_secs=70 mem_mb=1097 MB
+[2026-11-26T11:23:18Z] [iter=12] Step 2: Finding LSP targets mem_mb=1097 MB
+[2026-11-26T11:23:25Z] [iter=12] LSP targets found call_sites=49331 imports=700 extends=0 implements=105 secs=7
+[2026-11-26T11:23:36Z] [iter=12] Loaded checkpoint partial graph triples=229965
+[2026-11-26T11:23:36Z] [iter=12] Primed enclosing-def cache from persisted triples entries=1133
+[2026-11-26T11:23:39Z] [iter=12] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1097 MB
+[2026-11-26T11:24:02Z] [iter=12] Position index built positions=345125 nodes_with_types=411513 secs=23 mem_mb=1553 MB
+[2026-11-26T11:24:02Z] [iter=12] Step 3: Starting LSP resolution mem_mb=1553 MB already_completed_types=[] already_completed_files=109
+[2026-11-26T11:24:02Z] [iter=12] Resolving target type target_type=call_site count=49331
+[2026-11-26T11:24:15Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=2.1 files_done=0 resolved=0 errors=0 current=crates/noyalib/tests/string_target_plain_scalar.rs
+[2026-11-26T11:25:09Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=1 resolved=63 errors=0 current=crates/noyalib/tests/cst_emit.rs
+[2026-11-26T11:31:29Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=9.4 files_done=2 resolved=637 errors=0 current=crates/noyalib/tests/cst_block_literal_trailing_comment.rs
+[2026-11-26T11:32:11Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=10.1 files_done=3 resolved=699 errors=0 current=crates/noyalib/tests/cst_set_value_noop.rs
+[2026-11-26T11:33:04Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=11.0 files_done=4 resolved=760 errors=0 current=crates/noyalib/tests/spec/flow_collections.rs
+[2026-11-26T11:34:06Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=12.0 files_done=6 resolved=870 errors=0 current=crates/noyalib/examples/diagnostic_path.rs
+[2026-11-26T11:34:55Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=12.8 files_done=8 resolved=937 errors=0 current=crates/noyalib/tests/coverage_final_sweep.rs
+[2026-11-26T11:37:34Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=15.5 files_done=9 resolved=1192 errors=0 current=crates/noyalib/tests/ser_cst_coverage_extra.rs
+[2026-11-26T11:43:27Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=21.3 files_done=10 resolved=1718 errors=0 current=crates/noyalib/examples/schema_compiled.rs
+[2026-11-26T11:45:26Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=23.3 files_done=12 resolved=1904 errors=0 current=crates/noyalib/tests/cst_move_item.rs
+[2026-11-26T11:46:13Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=24.1 files_done=13 resolved=1980 errors=0 current=crates/noyalib/examples/validation.rs
+[2026-11-26T11:47:21Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=25.2 files_done=15 resolved=2065 errors=0 current=crates/noyalib/tests/de_error_field_path.rs
+[2026-11-26T11:51:04Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=29.0 files_done=17 resolved=2400 errors=0 current=crates/noyalib/tests/coverage_borrowed_full.rs
+[2026-11-26T11:52:09Z] [iter=12] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=126 new_files_this_iter=17 mem_mb=1579 MB
+[2026-11-26T11:52:09Z] [iter=12] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/1d3c6136835405d2544c854ef7dd8e55ab62d817.nq.gz triples=250045
+[2026-11-26T11:52:11Z] [iter=12] Checkpoint written, exiting with code 7
+[2026-11-26T11:52:11Z] [iter=12] PHASE END: enrich (checkpointed) elapsed_s=1802 elapsed_min=30.0 files_completed=126
