@@ -1,0 +1,29 @@
+[2026-11-26T01:15:46Z] === ENRICH ITERATION 11 START | repo=sebastienrousseau/noyalib sha=415e0801 ===
+[2026-11-26T01:15:46Z] [iter=11] PHASE START: enrich repo=sebastienrousseau/noyalib sha=415e0801 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/415e0801-enrich-iter-011.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/415e08016e989cd69df343d90e7c301999577a90.nq.gz
+[2026-11-26T01:15:46Z] [iter=11] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-26T01:16:36Z] [iter=11] AST store loaded triples=4983606 load_secs=48 mem_mb=978 MB
+[2026-11-26T01:16:36Z] [iter=11] Step 2: Finding LSP targets mem_mb=978 MB
+[2026-11-26T01:16:46Z] [iter=11] LSP targets found call_sites=49593 imports=703 extends=0 implements=105 secs=10
+[2026-11-26T01:17:02Z] [iter=11] Loaded checkpoint partial graph triples=258238
+[2026-11-26T01:17:02Z] [iter=11] Primed enclosing-def cache from persisted triples entries=1233
+[2026-11-26T01:17:07Z] [iter=11] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1008 MB
+[2026-11-26T01:17:45Z] [iter=11] Position index built positions=346540 nodes_with_types=413246 secs=38 mem_mb=1620 MB
+[2026-11-26T01:17:45Z] [iter=11] Step 3: Starting LSP resolution mem_mb=1620 MB already_completed_types=[] already_completed_files=144
+[2026-11-26T01:17:45Z] [iter=11] Resolving target type target_type=call_site count=49593
+[2026-11-26T01:18:07Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=2.3 files_done=0 resolved=0 errors=0 current=crates/noyalib/src/ser.rs
+[2026-11-26T01:19:14Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=3.5 files_done=1 resolved=64 errors=0 current=crates/noyalib/tests/cst_flow_inserts.rs
+[2026-11-26T01:20:53Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=5.1 files_done=2 resolved=171 errors=0 current=crates/noyalib/tests/ser_tagged_value_round_trip.rs
+[2026-11-26T01:21:50Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=6.1 files_done=3 resolved=225 errors=0 current=crates/noyalib/tests/ser_colon_hash_plain.rs
+[2026-11-26T01:23:34Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=7.8 files_done=5 resolved=324 errors=0 current=crates/noyalib/benches/interner.rs
+[2026-11-26T01:24:53Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=9.1 files_done=7 resolved=422 errors=0 current=crates/noyalib/tests/coverage_b1_de.rs
+[2026-11-26T01:26:53Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=11.1 files_done=8 resolved=581 errors=0 current=crates/noyalib/tests/coverage_b1_format_ser.rs
+[2026-11-26T01:28:58Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=13.2 files_done=9 resolved=782 errors=0 current=crates/noyalib/tests/cst_set_value_collection.rs
+[2026-11-26T01:29:38Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=13.9 files_done=10 resolved=843 errors=0 current=crates/noyalib/tests/value_final_push.rs
+[2026-11-26T01:32:36Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=16.8 files_done=11 resolved=1029 errors=0 current=crates/noyalib/tests/coverage_cst_green.rs
+[2026-11-26T01:33:26Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=17.7 files_done=13 resolved=1123 errors=0 current=crates/noyalib/src/value/mapping.rs
+[2026-11-26T01:34:56Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=19.2 files_done=14 resolved=1323 errors=0 current=crates/noyalib/tests/spec/edge_cases.rs
+[2026-11-26T01:35:48Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=20.0 files_done=15 resolved=1417 errors=0 current=crates/noyalib/tests/figment_provider.rs
+[2026-11-26T01:45:57Z] [iter=11] CHECKPOINT TRIGGERED elapsed_min=30.2 files_completed=160 new_files_this_iter=16 mem_mb=1638 MB
+[2026-11-26T01:45:57Z] [iter=11] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/415e08016e989cd69df343d90e7c301999577a90.nq.gz triples=273471
+[2026-11-26T01:46:00Z] [iter=11] Checkpoint written, exiting with code 7
+[2026-11-26T01:46:00Z] [iter=11] PHASE END: enrich (checkpointed) elapsed_s=1811 elapsed_min=30.2 files_completed=160
