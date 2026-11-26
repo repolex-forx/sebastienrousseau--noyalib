@@ -23,9 +23,12 @@
     "crates/noyalib/tests/coverage_remaining.rs",
     "crates/noyalib/tests/coverage_ser.rs",
     "crates/noyalib/tests/coverage_singleton_map.rs",
+    "crates/noyalib/tests/coverage_value.rs",
     "crates/noyalib/tests/cst_anchors.rs",
+    "crates/noyalib/tests/cst_format.rs",
     "crates/noyalib/tests/cst_insert_containment.rs",
     "crates/noyalib/tests/cst_quoted_path_segments.rs",
+    "crates/noyalib/tests/cst_rename_key.rs",
     "crates/noyalib/tests/multi_document_rejection.rs",
     "crates/noyalib/tests/official_suite.rs",
     "crates/noyalib/tests/spec/block_scalars.rs",
@@ -40,7 +43,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/1d3c6136835405d2544c854ef7dd8e55ab62d817.nq.gz",
     "call_sites": 49331,
     "import_statements": 700,
-    "call_targets_resolved": 12481,
+    "call_targets_resolved": 15029,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -54,5 +57,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1804
+  "elapsed_seconds": 1806
 }
